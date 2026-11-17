@@ -1,0 +1,5 @@
+{
+  "archetype" : "java-spring",
+  "domain" : "clinic",
+  "missions" : [ "bug-hunt", "scheduling-rules", "patients-api" ]
+}
