@@ -20,7 +20,7 @@ class BugHuntTest {
 		int minutes = AppointmentDuration.between(LocalDateTime.parse("2030-03-04T23:30"),
 				LocalDateTime.parse("2030-03-05T00:30"));
 
-		assertThat(minutes).as("esperava 60 minutos entre 23:30 e 00:30 do dia seguinte").isEqualTo(60);
+		assertThat(minutes).as("olha\n```java\nreturn Duration.between(start, end).toMinutes();\n```").isEqualTo(60);
 	}
 
 	@Test
