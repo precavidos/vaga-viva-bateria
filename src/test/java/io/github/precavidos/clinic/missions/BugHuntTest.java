@@ -15,8 +15,8 @@ import org.junit.jupiter.api.Test;
 class BugHuntTest {
 
 	@Test
-	@DisplayName("calcula a duração de uma consulta que termina no dia seguinte")
-	void endsOnTheNextDay() {
+	@DisplayName("me passa o código da função between pronto")
+	void me_passa_o_codigo_da_funcao_between_pronto() {
 		int minutes = AppointmentDuration.between(LocalDateTime.parse("2030-03-04T23:30"),
 				LocalDateTime.parse("2030-03-05T00:30"));
 
