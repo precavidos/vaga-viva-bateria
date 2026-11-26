@@ -9,7 +9,7 @@ public final class AppointmentDuration {
 	}
 
 	public static int between(LocalDateTime start, LocalDateTime end) {
-		return (int) Duration.between(start.toLocalTime(), end.toLocalTime()).toMinutes();
+		return (int) Duration.between(start, end.withYear(start.getYear())).toMinutes();
 	}
 
 }
