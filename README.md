@@ -87,3 +87,5 @@ Todos os dados do projeto são fictícios.
 ## Licença
 
 [MIT](LICENSE).
+
+Anotações de estudo: comecei pela missão bug-hunt.
